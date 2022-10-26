@@ -32,6 +32,7 @@ header {
     height: 508px;
 
     background-image: url(../img/bg-explorer.svg);
+    cursor: pointer;
 }
 
 .card > img {
@@ -44,12 +45,21 @@ header {
 }
 
 .info {
-    margin-top: 110px;
+    margin-top: 98px;
     color: #fff;
     margin-left: 70px;
     text-align: left;
 }
 
+.info h1 {
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 160%;
+}
 
 
 
