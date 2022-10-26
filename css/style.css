@@ -33,6 +33,12 @@ header {
 
     background-image: url(../img/bg-explorer.svg);
     cursor: pointer;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: appear 0.4s forwards;
+
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .card > img {
@@ -45,6 +51,8 @@ header {
 
     pointer-events: none;
     user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 .info {
@@ -65,7 +73,12 @@ header {
 }
 
 
-
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 
 
@@ -102,3 +115,10 @@ header {
     }
 
 }
+
+
+/*
+
+- https://caniuse.com/?search=user-select
+
+/*
