@@ -15,16 +15,40 @@ body * {
 body {
     background-image: linear-gradient(150deg, #0F2b05, #000000);
     height: 100vh;
+
+    text-align: center;
 }
 
 
+header {
+    padding: 75px 0;
+}
 
 
+/* ======= Card ======= */
+.card {
+    display: inline-block;
+    width: 354px;
+    height: 508px;
 
+    background-image: url(../img/bg-explorer.svg);
+}
 
+.card > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f7dd43;
+    margin-top: 115px;
+}
 
-
-
+.info {
+    margin-top: 110px;
+    color: #fff;
+    margin-left: 70px;
+    text-align: left;
+}
 
 
 
